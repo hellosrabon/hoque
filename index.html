@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srabon Hoque - Premium Digital Experience</title>
+    <meta name="description"
+        content="Portfolio of Srabon Hoque, a professional WordPress Website Designer for Service-Based Businesses.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Calendly Widget CSS -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/portrait.png">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Srabon.</a>
+                <div class="nav-links">
+                    <a href="#hero">Home</a>
+                    <a href="#services">Services</a> <!-- Moved up for priority -->
+                    <a href="#process">Process</a>
+                    <a href="#portfolio">Work</a>
+                    <!-- Calendly Link -->
+                    <a href="#"
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/srabonhoque'});return false;"
+                        class="btn btn-primary" style="padding: 10px 24px; font-size: 0.9rem;">Book a Call</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in stagger-1">
+                    <h4>Specialized in Service Businesses</h4>
+                    <h1>Scaling Brands with <span class="highlight">Premium Web Design</span></h1>
+                    <p>I build high-converting, "Agency-Grade" websites for Auto Detailers, Roofers, Plumbers, and
+                        Trades looking to dominate their local market.</p>
+                    <div class="hero-btns">
+                        <a href="#portfolio" class="btn btn-primary">See Results</a>
+                        <a href="#"
+                            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/srabonhoque'});return false;"
+                            class="btn btn-outline">Book Strategy Call</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in stagger-2">
+                    <img src="assets/images/portrait.png" alt="Srabon Hoque">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div class="container">
+        <div class="stats-bar fade-in stagger-3"
+            style="background: rgba(20,20,20,0.5); border: 1px solid rgba(255,255,255,0.05); padding: 30px; border-radius: 12px; display: flex; justify-content: space-around; margin-top: -50px; position: relative; z-index: 10; backdrop-filter: blur(10px);">
+            <div class="stat-item">
+                <h3><span class="counter" data-target="5">0</span>+</h3>
+                <p>Years Exp.</p>
+            </div>
+            <div class="stat-item">
+                <h3><span class="counter" data-target="50">0</span>+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat-item">
+                <h3><span class="counter" data-target="300">0</span>%</h3>
+                <p>Avg. ROI</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section - Niche Focused -->
+    <section id="services" class="services" style="padding-top: 150px;">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Tailored for Service Businesses</h2>
+                <p>Industry-specific solutions designed to capture leads and book appointments.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Niche 1: Auto Detailing -->
+                <div class="service-card fade-in stagger-1">
+                    <div class="service-icon">
+                        <!-- Car/Sparkle Icon -->
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 17H5V17C5 15.8954 5.89543 15 7 15H17C18.1046 15 19 15.8954 19 17V17Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path
+                                d="M5 17L3.12132 15.1213C2.55871 14.5587 2.55871 13.6464 3.12132 13.0839L5.29289 10.9123C5.68342 10.5218 6.21316 10.3024 6.76537 10.3024H17.2346C17.7868 10.3024 18.3166 10.5218 18.7071 10.9123L20.8787 13.0839C21.4413 13.6464 21.4413 14.5587 20.8787 15.1213L19 17"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M14 15V15C14 13.8954 14.8954 13 16 13H18" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M7 6L7.01 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <path d="M11 4L11.01 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <path d="M16 6L16.01 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>Auto Detailing & PPF</h3>
+                    <p>Showcase your ceramic coatings and paint correction with stunning 4K galleries and seamless
+                        booking integrations.</p>
+                    <ul class="niche-list">
+                        <li>Before/After Sliders</li>
+                        <li>Service Menu & Pricing</li>
+                        <li>Booking System Setup</li>
+                    </ul>
+                </div>
+
+                <!-- Niche 2: Roofing & Construction -->
+                <div class="service-card fade-in stagger-2">
+                    <div class="service-icon">
+                        <!-- House/Layers Icon -->
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M9 20V14.5C9 14.2239 9.22386 14 9.5 14H14.5C14.7761 14 15 14.2239 15 14.5V20"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Roofing & Construction</h3>
+                    <p>Build trust with a professional digital presence that highlights project case studies and
+                        customer testimonials.</p>
+                    <ul class="niche-list">
+                        <li>Project Portfolios</li>
+                        <li>Trust Badges & Reviews</li>
+                        <li>Quote Request Forms</li>
+                    </ul>
+                </div>
+
+                <!-- Niche 3: Plumbing & HVAC -->
+                <div class="service-card fade-in stagger-3">
+                    <div class="service-icon">
+                        <!-- Wrench/Tools Icon -->
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.7 6.3L17.7 3.3C18.0667 2.93333 18.7333 2.93333 19.1 3.3L20.7 4.9C21.0667 5.26667 21.0667 5.93333 20.7 6.3L17.7 9.3"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M19.2 4.8C18 7 15.5 8.5 14.7 13.3C14.1206 16.7762 11.2238 19.6731 7.74755 20.2524C2.94755 21.0524 1.44755 18.5524 3.74755 16.2524C4.24755 15.7524 4.74755 15.2525 5.24755 14.7524C5.54755 14.4525 5.54755 13.9524 5.24755 13.6525C4.94755 13.3525 4.44755 13.3525 4.14755 13.6525C3.34755 14.4525 2.24755 15.5524 1.74755 16.0524C-0.552445 18.3524 1.94755 22.8524 6.74755 22.0524C10.2238 21.4731 13.1206 18.5762 13.7 15.1L14.7 9.3C16.5 8.3 18.2 6 18.2 6"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Plumbing & HVAC</h3>
+                    <p>Emergency-ready designs that help local customers find you first when they need you most.</p>
+                    <ul class="niche-list">
+                        <li>Local SEO Optimization</li>
+                        <li>Click-to-Call Buttons</li>
+                        <li>Service Area Maps</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <!-- Process Section -->
+    <section id="process" style="padding: 120px 0; position: relative;">
+        <!-- Background decorative line -->
+        <div
+            style="position: absolute; top: 50%; left: 0; width: 100%; height: 1px; background: linear-gradient(90deg, transparent, var(--color-primary-glow), transparent); opacity: 0.3; z-index: 0;">
+        </div>
+
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="section-title fade-in">
+                <h2>The Workflow</h2>
+                <p>A seamless, transparent journey from concept to launch.</p>
+            </div>
+            <div class="process-steps">
+                <!-- Connected Line Background -->
+                <div class="process-line"></div>
+
+                <!-- Step 1 -->
+                <div class="process-step fade-in stagger-1">
+                    <div class="step-indicator">01</div>
+                    <h3>Discovery</h3>
+                    <p>We deep dive into your market, analyzing local competitors to find your unique edge.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="process-step fade-in stagger-2">
+                    <div class="step-indicator">02</div>
+                    <h3>Design</h3>
+                    <p>I craft a high-end visual identity that screams "Premium" and instantly builds trust.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="process-step fade-in stagger-3">
+                    <div class="step-indicator">03</div>
+                    <h3>Build</h3>
+                    <p>Development on WordPress using clean code for easy management and scalability.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="process-step fade-in stagger-4">
+                    <div class="step-indicator">04</div>
+                    <h3>Launch</h3>
+                    <p>We go live, optimize for Google (SEO), and set up tracking so you never miss a lead.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio" style="padding-bottom: 120px;">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Recent Work</h2>
+                <p>See how I've helped other service businesses grow.</p>
+            </div>
+
+            <!-- Tabs -->
+            <div class="portfolio-filters fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="auto">Auto Detailing</button>
+                <button class="filter-btn" data-filter="trades">Trades (Roofing/HVAC)</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Row 1 -->
+                <!-- Item 1: Auto -->
+                <div class="portfolio-item fade-in stagger-1" data-category="auto">
+                    <img src="assets/images/portfolio/auto.png" alt="Auto Detailing Website Mockup">
+                    <div class="portfolio-overlay">
+                        <h3>Pro Shine Detailing</h3>
+                        <p>Ceramic Coating & Detail</p>
+                    </div>
+                </div>
+                <!-- Item 7: Auto White SUV -->
+                <div class="portfolio-item fade-in stagger-1" data-category="auto">
+                    <img src="assets/images/portfolio/auto_white_suv.png" alt="Luxury SUV Detailing Mockup">
+                    <div class="portfolio-overlay">
+                        <h3>Aurum Auto Spa</h3>
+                        <p>Paint Protection Film</p>
+                    </div>
+                </div>
+                <!-- Item 8: Auto Red Sport -->
+                <div class="portfolio-item fade-in stagger-1" data-category="auto">
+                    <img src="assets/images/portfolio/auto_red_sport.png" alt="Sports Car Detailing Mockup">
+                    <div class="portfolio-overlay">
+                        <h3>Redline Ceramics</h3>
+                        <p>Expert Coating</p>
+                    </div>
+                </div>
+                <!-- Item 2: Roofing -->
+                <div class="portfolio-item fade-in stagger-2" data-category="trades">
+                    <img src="assets/images/portfolio/roofing.png" alt="Roofing Company Website Mockup">
+                    <div class="portfolio-overlay">
+                        <h3>Elite Roofing Co.</h3>
+                        <p>Residential Roofing</p>
+                    </div>
+                </div>
+                <!-- Item 3: Plumbing -->
+                <div class="portfolio-item fade-in stagger-3" data-category="trades">
+                    <img src="assets/images/portfolio/plumbing.png" alt="Plumbing Website Mockup">
+                    <div class="portfolio-overlay">
+                        <h3>City Plumbers</h3>
+                        <p>Emergency Services</p>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <!-- Item 4: HVAC -->
+                <div class="portfolio-item fade-in stagger-1" data-category="trades">
+                    <img src="assets/images/portfolio/hvac.png" alt="HVAC Company Website Mockup">
+                    <div class="portfolio-overlay">
+                        <h3>Arctic Air Solutions</h3>
+                        <p>HVAC & Cooling</p>
+                    </div>
+                </div>
+                <!-- Item 5: Landscaping -->
+                <div class="portfolio-item fade-in stagger-2" data-category="commercial">
+                    <img src="assets/images/portfolio/landscaping.png" alt="Landscaping Website Mockup">
+                    <div class="portfolio-overlay">
+                        <h3>Verdant Landscapes</h3>
+                        <p>Lawn Care & Design</p>
+                    </div>
+                </div>
+                <!-- Item 6: Cleaning -->
+                <div class="portfolio-item fade-in stagger-3" data-category="commercial">
+                    <img src="assets/images/portfolio/cleaning.png" alt="Commercial Cleaning Website Mockup">
+                    <div class="portfolio-overlay">
+                        <h3>SparkleClean</h3>
+                        <p>Commercial Janitorial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    </section>
+
+    <!-- Testimonials Section - Social Proof -->
+    <section id="testimonials" class="testimonials" style="padding: 100px 0; position: relative;">
+        <!-- Background Glow -->
+        <div
+            style="position: absolute; right: 0; bottom: 0; width: 300px; height: 300px; background: radial-gradient(circle, rgba(2, 117, 103, 0.15), transparent 70%); pointer-events: none;">
+        </div>
+
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Client Stories</h2>
+                <p>Real results from service business owners just like you.</p>
+            </div>
+
+            <div class="testimonials-slider fade-in stagger-1">
+                <div class="testimonial-track">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">“</div>
+                        <p class="review-text">I was skeptical about a new website, but Srabon completely transformed
+                            our
+                            online presence. We got 15 new detailing bookings in the first week alone.</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-img" style="background: #333;">JD</div>
+                            <div>
+                                <h4>James Dalton</h4>
+                                <p>Owner, Dalton Detailing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">“</div>
+                        <p class="review-text">The best investment for my roofing business. The project portfolio he
+                            built
+                            helped us land a $40k commercial contract. Highly recommended.</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-img" style="background: #333;">MR</div>
+                            <div>
+                                <h4>Mike Ross</h4>
+                                <p>Apex Roofing Systems</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to Top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </button>
+
+    <!-- Contact Section - Refined -->
+    <!-- Contact Section - Premium Full Width CTA -->
+    <section id="contact" class="contact full-width-cta">
+        <div class="container">
+            <div class="cta-content fade-in">
+                <h2>Ready to Scale Your Business?</h2>
+                <p>Stop losing customers to outdated websites. Let's build a digital presence that positions you as the
+                    market leader.</p>
+
+                <div class="cta-actions">
+                    <a href="#"
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/srabonhoque'});return false;"
+                        class="btn btn-large">
+                        Book Your Free Strategy Call
+                        <span class="arrow-icon">→</span>
+                    </a>
+                    <div class="cta-secondary">
+                        <span>or</span>
+                        <a href="mailto:hoquesrabon2@gmail.com" class="email-link">hoquesrabon2@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" style="padding: 50px 0; text-align: center;">
+            <a href="#" class="logo" style="margin-bottom: 20px; display: inline-block;">Srabon.</a>
+            <p style="opacity: 0.5;">&copy; <span id="year"></span> Srabon Hoque. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Calendly Widget JS -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</body>
+
+</html>
